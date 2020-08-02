@@ -64,14 +64,14 @@
 	margin-bottom: 20px;
 }
 
-#section3>div>input{
+input{
 	background-color: #e3e1e1;
 	border-radius: 5px;
 	color: #868687;
 	border:2px solid #e3e1e1;
 }
 
-#section3>div>span{
+#join{
 	background-color:#5176b8;
 	color: white;
 	padding: 5px 5px 5px 5px;
@@ -81,6 +81,7 @@
 #section4{
 	margin-left: 120px;
 	width: 75%;
+	margin-bottom: 80px;
 }
 
 #section4>#bold{
@@ -121,7 +122,45 @@
 	color: white;
 }
 
+#section5>div{
+	margin-left: 120px;
+	font-size: 1.5vw;
+}
 
+#fullstack{
+	background:url("images/smarthome.jpg");
+}
+#onboard{
+	background:url("images/onboard.png");
+}
+#mobile{
+	background:url("images/booking.png");
+}
+#juice{
+	background:url("images/juice-product.png");
+}
+
+#footer{
+	background-color: black;
+	color: white;
+}
+
+#footer_contents{
+	margin-left: 120px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#footer_contents>div>div{
+	margin-bottom: 5px;
+}
+
+#email{
+	background-color: #e3e1e1;
+	border-radius: 5px;
+	color: #868687;
+	border:2px solid #e3e1e1;
+}
 @media (max-width: 375px){
 	#main-content{
 	margin-right: 10px;
