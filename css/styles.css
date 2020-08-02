@@ -10,14 +10,20 @@
 	font-weight: bold;
 }
 
-#nav-list>li{
+#nav-list>li>a{
 	margin-left: 10px;
 	font-weight: bold;
+	color: black;
+}
+
+#nav-list>li>a:hover{
+	background-color: #e3e1e1;
 }
 
 #nav-list{
 	margin-top: 10px;
 	margin-right: 15px;
+	
 }
 
 #main-content{
@@ -155,16 +161,38 @@ input{
 	margin-bottom: 5px;
 }
 
-#email{
-	background-color: #e3e1e1;
-	border-radius: 5px;
-	color: #868687;
-	border:2px solid #e3e1e1;
+#section7{
+	margin-left: 120px;
+	font-weight: bold;
+	margin-top: 50px;
+	margin-bottom:50px;
+	font-size: 1.5vw;
 }
+
+
+
 @media (max-width: 375px){
 	#main-content{
 	margin-right: 10px;
 	margin-left: 10px;
+}
+
+#nav-list>li>a{
+	text-align: center;
+}
+
+#nav-list>li>a:hover{
+	background-color: black;
+	color: white;
+}
+
+#nav-list{
+	margin-top: 30px;
+}
+
+
+#nav-list>a>li{
+	 text-align: center;
 }
 
 #section1{
@@ -183,6 +211,15 @@ input{
 	margin-bottom: 8px;
 }
 
+#section2{
+	
+	background: url("/images/heroImage_iphone.jpg");
+	background-repeat: no-repeat;
+	height: 93px;
+	border-radius: 15px;
+	margin-bottom: 20px;
+}
+
 #section3{
 	 margin-left: 30px;
 	 width: 300px;
@@ -195,6 +232,7 @@ input{
 
 #section4{
 	margin-left: 30px;
+	margin-bottom: 10px;
 }
 
 #section4>#bold{
@@ -207,6 +245,27 @@ input{
 
 #three_sections>div{
 	margin-bottom: 60px;
+}
+
+
+#footer_contents{
+	margin-left: 5px;
+}
+
+#section5>div{
+	font-size: 4vw;
+	margin-left: 30px;
+}
+
+#footer_contents>div{
+	margin-bottom: 15px;
+}
+
+#section7{
+	margin-left: 30px;
+	margin-top: 50px;
+	font-size: 3.5vw;
+	font-weight: bold;
 }
 
 }
