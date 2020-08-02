@@ -53,10 +53,12 @@
 }
 
 #section3{
-	 margin-left: 200px;
-	 width: 250px;
-	 margin-bottom:80px;
+	margin-left: 150px;
+	margin-bottom: 80px;
+	width: 300px;
 }
+
+
 
 #section3>#about{
 	margin-bottom: 20px;
@@ -117,5 +119,56 @@
 	margin-bottom: 20px;
 	border-radius: 5px;
 	color: white;
+}
+
+
+@media (max-width: 375px){
+	#main-content{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#section1{
+  margin-left: 40px;
+
+}
+
+#bold{
+	font-size: 5.5vw;
+}
+
+#section1>#blue{
+	color:blue;
+	margin-bottom: 5px;
+	font-size: 2.5vw;
+	margin-bottom: 8px;
+}
+
+#section3{
+	 margin-left: 30px;
+	 width: 300px;
+	 margin-bottom:60px;
+}
+
+#section3>div>input{
+	width: 260px;
+}
+
+#section4{
+	margin-left: 30px;
+}
+
+#section4>#bold{
+	font-size: 5vw;
+}
+
+#three_sections #bold{
+	font-size: 4vw;
+}
+
+#three_sections>div{
+	margin-bottom: 60px;
+}
+
 }
 
