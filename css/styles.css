@@ -158,21 +158,20 @@ input{
 
 #fullstack{
 	background:url("https://shivasankari3101.github.io/Project/images/smarthome.jpg");
-	margin-right: 5px;
 
 
 }
 #onboard{
 	background:url("https://shivasankari3101.github.io/Project/images/onboard.png");
-	margin-left: 5px;
+	
 }
 #mobile{
 	background:url("https://shivasankari3101.github.io/Project/images/booking.png");
-	margin-right: 5px;
+	
 }
 #juice{
     background:url("https://shivasankari3101.github.io/Project/images/juice-product.png");
-    margin-left: 5px; 
+     
 } 
 
 
@@ -268,6 +267,9 @@ input{
 #section4{
 	margin-left: 30px;
 	margin-bottom: 10px;
+	margin-right: 0px;
+	width: 300px;
+
 }
 
 #section4>#bold{
@@ -299,8 +301,8 @@ input{
 }
 
 #fullstack,#onboard,#mobile,#juice{
-  width:355px;
-  padding-left: 0px;
+	height: 400px;
+	width: 350px;
 }
 
 
@@ -319,6 +321,9 @@ input{
 	width: 355px;
 }
 
+#footer{
+	width: 375px;
+}
 
 }
 
