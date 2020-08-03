@@ -133,6 +133,10 @@ input{
 	font-size: 1.5vw;
 }
 
+#section5>section>span{
+	color: #50b7eb;
+}
+
 #services{
 	margin-top: 50px;
 
@@ -201,6 +205,10 @@ input{
 @media (min-width: 992px){
 	#services{
 		width: 820px;
+	}
+
+	#section5>section{
+		float: right;
 	}
 }
 
