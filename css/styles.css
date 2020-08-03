@@ -39,7 +39,7 @@
 }
 
 #section1{
-  margin-left: 200px;
+  margin-left: 300px;
 
 }
 
@@ -134,16 +134,24 @@ input{
 }
 
 #fullstack{
-	background:url("images/smarthome.jpg");
+	/*background:url("https://shivasankari3101.github.io/Project/images/smarthome.jpg");*/
+	height: 400px;
+	width: 400px;
 }
 #onboard{
-	background:url("images/onboard.png");
+	/*background:url("https://shivasankari3101.github.io/Project/images/onboard.png");*/
+	height: 400px;
+	width: 400px;
 }
 #mobile{
-	background:url("images/booking.png");
+	/*background:url("https://shivasankari3101.github.io/Project/images/booking.png");*/
+	height: 400px;
+	width: 400px;
 }
 #juice{
-	background:url("images/juice-product.png");
+	/*background:url("https://shivasankari3101.github.io/Project/images/juice-product.png");*/
+	height: 400px;
+	width: 400px;
 }
 
 #footer{
