@@ -70,6 +70,16 @@
 	margin-bottom: 20px;
 }
 
+button{
+	background-color: white;
+	border-color: white;
+}
+
+button>span{
+	color: black;
+	font-weight: bolder;
+}
+
 input{
 	background-color: #e3e1e1;
 	border-radius: 5px;
