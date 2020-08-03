@@ -39,7 +39,7 @@
 }
 
 #section1{
-  margin-left: 300px;
+  margin-left: 150px;
 
 }
 
@@ -133,26 +133,48 @@ input{
 	font-size: 1.5vw;
 }
 
-#fullstack{
-	/*background:url("https://shivasankari3101.github.io/Project/images/smarthome.jpg");*/
+#services{
+	margin-top: 50px;
+
+}
+
+#fullstack,#onboard,#mobile,#juice{
+	border-radius: 25px;
 	height: 400px;
 	width: 400px;
+}
+
+#fullstack_text,#onboard_text,#mobile_text,#juice_text{
+	padding:15px;
+}
+
+#fullstack_text>section,#onboard_text>section,#mobile_text>section,#juice_text>section{
+
+}
+#fullstack_text>div,#onboard_text>div,#mobile_text>div,#juice_text>div{
+  font-weight: bold;
+}
+
+
+#fullstack{
+	background:url("https://shivasankari3101.github.io/Project/images/smarthome.jpg");
+	margin-right: 5px;
+
+
 }
 #onboard{
-	/*background:url("https://shivasankari3101.github.io/Project/images/onboard.png");*/
-	height: 400px;
-	width: 400px;
+	background:url("https://shivasankari3101.github.io/Project/images/onboard.png");
+	margin-left: 5px;
 }
 #mobile{
-	/*background:url("https://shivasankari3101.github.io/Project/images/booking.png");*/
-	height: 400px;
-	width: 400px;
+	background:url("https://shivasankari3101.github.io/Project/images/booking.png");
+	margin-right: 5px;
 }
 #juice{
-	/*background:url("https://shivasankari3101.github.io/Project/images/juice-product.png");*/
-	height: 400px;
-	width: 400px;
-}
+    background:url("https://shivasankari3101.github.io/Project/images/juice-product.png");
+    margin-left: 5px; 
+} 
+
 
 #footer{
 	background-color: black;
@@ -177,6 +199,11 @@ input{
 	font-size: 1.5vw;
 }
 
+@media (min-width: 992px){
+	#services{
+		width: 820px;
+	}
+}
 
 
 @media (max-width: 375px){
@@ -260,10 +287,22 @@ input{
 	margin-left: 5px;
 }
 
+
 #section5>div{
 	font-size: 4vw;
-	margin-left: 30px;
+	margin-left: 0px;
 }
+
+#services{
+	margin-top: 50px;
+	padding:0px;
+}
+
+#fullstack,#onboard,#mobile,#juice{
+  width:355px;
+  padding-left: 0px;
+}
+
 
 #footer_contents>div{
 	margin-bottom: 15px;
@@ -275,6 +314,11 @@ input{
 	font-size: 3.5vw;
 	font-weight: bold;
 }
+
+.row{
+	width: 355px;
+}
+
 
 }
 
