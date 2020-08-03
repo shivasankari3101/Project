@@ -204,6 +204,10 @@ input{
 	margin-bottom: 5px;
 }
 
+#footer_contents span{
+   margin-right: 6px;
+}
+
 #section7{
 	margin-left: 120px;
 	font-weight: bold;
